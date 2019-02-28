@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void afterTextChanged (Editable editable){
                 @Override
                         public void afterTextChanget(Editable editable){
-                    if (editable.toString().trim().lenght() > 0) {
+                    if (editable.toString().trim().length() > 0) {
                         button.setEnabled(true);
                     } else {
                         button.setEnabled(false);
